@@ -7,8 +7,9 @@
 </head>
 <body>
     <main>
-        <section class="main-wrapper">
-            <h1 class="main-title">musimage</h1>
+        <h1>musimage</h1>
+        <section class="section-wrapper">
+            <h1 class="title">Import audio file</h1>
             <section class="file-wrapper">
                 <button>
                     <label for="audioFile">
@@ -18,15 +19,18 @@
                 </button>
                 <span id="audioName">No file selected</span>
             </section>
-            <section>
-                <button id="audioLoad">Load audio</button>
-            </section>
-            <section>
-                <audio title="" src="" id="track" autoplay></audio>
-            </section>
+            <button id="audioLoad">Load audio</button>
+            <audio title="" src="" id="audioTrack" autoplay controls></audio>
+        </section>
+        <section class="section-wrapper">
+            <h1 class="title">Recording</h1>
+            <button id="recordingButton">Start recording</button>
+            <audio src="" id="audioRecorded" controls></audio>
         </section>
     </main>
     <script type="text/javascript" src="../static/js/elements.js"></script>
-    <script type="text/javascript" src="../static/js/handlers.js"></script>
+    <script type="text/javascript" src="../static/js/importHandler.js"></script>
+    <script type="text/javascript" src="../static/js/recording.js"></script>
+    <script type="text/javascript" src="../static/js/recordingHandler.js"></script>
 </body>
 </html>
