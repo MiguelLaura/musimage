@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>musimage</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+</head>
+<body>
+    <main>
+        <section class="main-wrapper">
+            <h1 class="main-title">musimage</h1>
+            <section class="file-wrapper">
+                <button>
+                    <label for="audioFile">
+                        Upload audio file
+                        <input type="file" id="audioFile" accept=".aac, .aif, .au, .mp3, .mp4, .m4a, .oga, .ogg, .opus, .vqe, .vqf, .vql, .wav"/>
+                    </label>
+                </button>
+                <span id="audioName">No file selected</span>
+            </section>
+            <section>
+                <button id="audioLoad">Load audio</button>
+            </section>
+            <section>
+                <audio title="" src="" id="track" autoplay></audio>
+            </section>
+        </section>
+    </main>
+    <script type="text/javascript" src="../static/js/elements.js"></script>
+    <script type="text/javascript" src="../static/js/handlers.js"></script>
+</body>
+</html>

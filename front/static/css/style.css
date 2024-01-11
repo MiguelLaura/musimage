@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee|Pacifico);
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+}
+
+.main-wrapper {
+	margin: 1em auto 0;
+	width: 1080px;
+	text-align: center;
+}
+
+.main-title {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 3.2em;
+	color: #000;
+	text-shadow: 1px 1px 1px #a0a0a0;
+}
+
+.file-wrapper {
+	padding: 1em;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #0A0A0A;
+	border-radius: 0.5em;
+}
+
+input[type="file"]{
+	display: none;
+}
+
+button {
+	padding: 0.5em;
+	text-align: center;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+section {
+	margin: 1em auto 0;
+}
+
+audio {
+	display: none;
+}
